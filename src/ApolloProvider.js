@@ -8,7 +8,7 @@ import { setContext } from 'apollo-link-context'
 
 const httpLink = createHttpLink({
     // uri: 'https://polar-ocean-46082.herokuapp.com'
-    uri: 'https://secure-dawn-40337.herokuapp.com'
+    uri: 'https://dry-stream-84561.herokuapp.com'
 })
 
 const authLink = setContext(() => {
